@@ -10,9 +10,9 @@ $.get( "https://api.covid19india.org/data.json", function( data ) {
 
         x.insertCell(0);
         tbval.rows[i].cells[0].innerHTML = data['statewise'][i-1]['state'];
-        tbval.rows[i].cells[0].style.background = '#79a3b1';
-        tbval.rows[i].cells[0].style.color = '#000000';
-        tbval.rows[i].cells[0].style.fontWeight = "600";
+        tbval.rows[i].cells[0].style.background = '#b0efeb';
+        tbval.rows[i].cells[0].style.color = '#000';
+        tbval.rows[i].cells[0].style.fontWeight = "650";
         x.insertCell(1);
         tbval.rows[i].cells[1].innerHTML = data['statewise'][i-1]['active'];
         x.insertCell(2);
