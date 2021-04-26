@@ -14,6 +14,41 @@ body{
 .title{
     margin-top: 2.5rem;
 }
+.about_corona{
+  padding-top: 14rem;
+}
+}
+
+.nav_style{
+background-color: #a29bfe;
+}
+.nav_style a{
+color: white;
+}
+.live{
+font-size: 2.3rem;
+padding-bottom: 1.3rem;
+}
+
+
+.main_header{
+height: 450px;
+margin: 0 auto;
+width: 80%;
+}
+
+.rightside h1{
+text-align: center;
+font-size: 2.5rem;
+}
+
+.corona_rot img{
+animation: coronarotate 3s linear infinite;
+}
+@keyframes coronarotate {
+0% {transform: rotate(0);}
+100% {transform: rotate(360deg);}
+}
 
 /****************** corona update ************* */
 
