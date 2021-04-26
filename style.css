@@ -17,7 +17,7 @@ body{
 .about_corona{
   padding-top: 14rem;
 }
-}
+
 
 .nav_style{
 background-color: #a29bfe;
@@ -85,7 +85,7 @@ footer{
   padding: 1rem;
 }
 .sourcecode{
-  color: grey;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .sourcecode:hover{

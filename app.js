@@ -1,3 +1,19 @@
+var clock = setInterval(clocktiming, 1000);
+
+function clocktiming(){
+    var date = new Date();
+    
+
+    var time = date.toLocaleTimeString();
+    document.getElementById('time').innerHTML ="["+time+"] ";
+
+    var date = date.toDateString();
+    document.getElementById('date').innerHTML =" ["+ date+"]";
+}
+
+
+
+
 
 $.get( "https://api.covid19india.org/data.json", function( data ) {
     $( ".result" ).html( data );
